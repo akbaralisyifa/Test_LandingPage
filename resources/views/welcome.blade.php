@@ -11,7 +11,6 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
         <!-- Styles -->
-        {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
         @vite([
             "resources/css/app.css",
             "resources/scss/app.scss",
@@ -31,10 +30,10 @@
                 </div>
                 <div class="navbar-link">
                     <ul>
-                        <li><a href="">Homepage</a></li>
-                        <li><a href="">Tentang</a></li>
-                        <li><a href="">Daftar Hotel</a></li>
-                        <li><a href="">Bantuan</a></li>
+                        <li><a href="#">Homepage</a></li>
+                        <li><a href="#">Tentang</a></li>
+                        <li><a href="#">Daftar Hotel</a></li>
+                        <li><a href="#">Bantuan</a></li>
                     </ul>
                 </div>
             </nav>
@@ -135,5 +134,151 @@
             </div>
         </main>
         {{-- Our service End --}}
+
+
+        {{-- Lates Project --}}
+        <main class="main-project">
+            <div class="project-title">
+                <img src='/assets/iconHeader.png' alt=''>
+                <h3>our latest Projects</h3>
+                <img src='/assets/iconHeader.png' alt=''>
+            </div>
+            <h1 class="project-heroText">Project Terbaru Kami</h1>
+
+            <div class="project-image">
+                <img class="image-left" src='/assets/arrowProject.png' alt=''>
+                    <div class="image-card">
+                        <img src='/assets/project-image.jpg' alt='project-image'>
+                        <div class="image-card-text">
+                            <div class="image-card-text-title">
+                                <h1>1/4 OPERATIONAL PROJECT</h1>
+                                <h2>Townhouse Oak</h2>
+                                <h3>Brand tertinggi di OYO</h3>
+                            </div>
+                            <div class="image-card-text-button">
+                                <img src='/assets/arrowDetail.png' alt=''>
+                                <p>Lihat Detail</p>
+                            </div>
+                        </div>
+                    </div>
+                <img class="image-right" src='/assets/arrowProject.png' alt=''>
+            </div>
+        </main>
+
+        {{-- Lates Project End --}}
+
+        {{-- Testimoni --}}
+        <main class="main-testimoni">
+            <div class="arrow-testimoni">
+                <img class="arrow-left" src='/assets/arrowDetail.png' alt=''>
+                <img class="arrow-right" src='/assets/arrowDetail.png' alt=''>
+            </div>
+            <div class="main-testimoni-text">
+                <div class="testimoni-title">
+                    <img src='/assets/iconHeader.png' alt=''>
+                    <h3>our testimonials</h3>
+                </div>
+                <h1>Yang Klien Kami Katakan</h1>
+                <div class="testimoni-quote">
+                    <img src='/assets/quote.png' alt=''>
+                        <p> 
+                            Group membantu hotel saya untuk menjangkau lebih banyak client dan memberikan saran monetisasi yang tidak pernah saya bayangkan sebelumnya
+                        </p>
+                </div>
+                <div class="testimoni-person">
+                    <img src='/assets/logo-testimoni.png' alt=''>
+                    <div class="testimoni-person-text">
+                        <h1>Chaim Desmond</h1>
+                        <p>CEO of Yellow Hotel</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-testimoni-img">
+                <img src='/assets/review.jpg' alt=''>
+            </div>
+        </main>
+        {{-- Testimoni End --}}
+
+
+        {{-- contact  --}}
+        <main class="main-contact">
+            <img class="main-contact-img" src='/assets/rounded-Right.png' alt=''>
+            <div class="main-contact-text">
+                <div class="contact-title">
+                    <img src='/assets/iconHeader.png' alt=''>
+                    <h3>hubungi kami</h3>
+                </div>
+                <h1>Ingin Mendiskusikan Bisnis Pariwisata Anda ?</h1>
+                <img src='/assets/line.png' alt=''>
+                <p>
+                    Ada kepentingan bisnismu yang ingin didikusikan dengan kami, yuk segera isi form disamping, konsultasinya gratis kok !
+                </p>
+            </div>
+            <form class="main-contact-form">
+                <div class="form-nama">
+                    <label for="name">Nama Lengkap</label>
+                    <input id="name" type="text" placeholder="Masukkan Nama Lengkap">
+                </div>
+                <div class="form-nama">
+                    <label for="perusahaan">Nama Perusahaan</label>
+                    <input id="perusahaan" type="text" placeholder="Masukkan Nama Perusahaan">
+                </div>
+                <div class="form-nama">
+                    <label for="name">Nonor Watsapp Aktif</label>
+                    <input id="name" type="text" placeholder="Masukkan Nomor Whatsapp">
+                </div>
+
+                <button>Jadwalkan Konsultasi <img src='assets/arrowService-right.png' alt=''></button>
+            </form>
+        </main>
+        {{-- contact end --}}
+
+        {{-- Footer --}}
+        <footer>
+            <img class="backdrop-img" src='/assets/lineFooter.png' alt=''>
+            <div class="footer-img">
+                <img src='/assets/logo.png' alt=''>
+            </div>
+            <div class="footer-text">
+                <div class="footer-text-title">
+                    <h1>Halaman Utama</h1>
+                    <a href="">Homepage</a>
+                </div>
+                <div class="footer-text-title">
+                    <h1>Halaman Utama</h1>
+                    <a href="">Tentang Kami</a>
+                    <a href="">Daftar Hotel</a>
+                </div>
+                <div class="footer-text-title">
+                    <h1>Halaman Utama</h1>
+                    <a href="">Bantuan</a>
+                    <a href="">Hubungi Kami</a>
+                </div>
+                <div class="footer-text-title">
+                    <h1>Halaman Utama</h1>
+                    <div>
+                        <img src='' alt=''>
+                        <img src='' alt=''>
+                        <img src='' alt=''>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="copyright-text">
+                    <a href="#">Pemberitahuan Privasi</a>
+                    <a href="#">Syarat dan Ketentuan</a>
+                </div>
+                <div class="copyright-bahasa">
+                    <img src='/assets/icon-language.png' alt=''>
+                    <div class="copyright-bahasa-text">
+                        <p>Bahasa Indonesia</p>
+                        <img src='/assets/arrow-down.png' alt=''>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-copyright-text">&copy; 2023 Graha Wisata Kita | PT Graha Wisata Kita Tbk. </p>
+        </footer>
+        {{-- Footer end --}}
     </body>
 </html>
