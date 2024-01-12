@@ -10,21 +10,21 @@
             <a href="">Homepage</a>
         </div>
         <div class="footer-text-title">
-            <h1>Halaman Utama</h1>
+            <h1>Perusahaan</h1>
             <a href="">Tentang Kami</a>
             <a href="">Daftar Hotel</a>
         </div>
         <div class="footer-text-title">
-            <h1>Halaman Utama</h1>
+            <h1>Temukan Kami</h1>
             <a href="">Bantuan</a>
             <a href="">Hubungi Kami</a>
         </div>
         <div class="footer-text-title">
-            <h1>Halaman Utama</h1>
-            <div>
-                <img src='' alt=''>
-                <img src='' alt=''>
-                <img src='' alt=''>
+            <h1>Social Media</h1>
+            <div class="footer-img-social">
+                <img src='/assets/facebook.png' alt=''>
+                <img src='/assets/youtube.svg' alt=''>
+                <img src='/assets/instagram.png' alt=''>
             </div>
         </div>
     </div>
