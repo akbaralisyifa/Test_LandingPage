@@ -1,6 +1,7 @@
 
 ## Cara Menjalankan nya 
 
+- instal terlebih dahulu node nya "npm install" untuk mendownload node.modules nya
 - buka terminal lalu running "npm run dev" untuk menjalankan vite sass nya
 - buka terminal lainnya lalu running "php artisan serve" Untuk menjalankan PHP nya
 
