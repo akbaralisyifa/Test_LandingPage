@@ -6,6 +6,12 @@
 
 # ScreenShot
 
-![alt text](?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss1.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss2.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss3.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss4.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss5.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss6.jpg?raw=true)
+![alt text](https://github.com/akbaralisyifa/Test_LandingPage/blob/main/screenshot/ss7.jpg?raw=true)
 
 
